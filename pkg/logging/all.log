@@ -1,0 +1,31 @@
+{"level":"info","time":"2025-07-01T17:00:44.425+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:22","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-01T17:05:33.345+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:22","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T17:44:58.430+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:23","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T17:44:58.432+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T17:45:12.963+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:23","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T17:45:12.964+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T17:53:14.656+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:23","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T17:53:14.658+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T17:54:57.533+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:23","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T17:54:57.534+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:02:30.190+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:25","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:02:30.190+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:03:25.021+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:25","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:03:25.023+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:04:10.621+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:25","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:04:10.622+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:06:29.881+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:25","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:06:29.883+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:07:13.506+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:07:13.509+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:07:26.975+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:07:26.975+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:08:14.553+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:08:14.555+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:09:15.280+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:09:15.282+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:12:17.823+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T18:12:17.825+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:12:18.583+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T18:12:18.584+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-02T18:12:18.584+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}

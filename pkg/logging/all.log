@@ -29,3 +29,8 @@
 {"level":"info","time":"2025-07-02T18:12:18.583+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
 {"level":"info","time":"2025-07-02T18:12:18.584+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
 {"level":"info","time":"2025-07-02T18:12:18.584+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-02T20:19:29.745+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-02T20:19:29.746+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T20:41:24.257+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-02T20:41:24.314+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-02T20:41:24.314+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}

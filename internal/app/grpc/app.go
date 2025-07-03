@@ -12,11 +12,12 @@ type App struct {
 	Grpc   *grpc.Server
 	Logger *zap.Logger
 	Port   int
+	AuthGRPC.Auth
 }
 
-func NewApp(port int, logger *zap.Logger) *App {
+func NewApp(port int, logger *zap.Logger, authService AuthGRPC.Auth) *App {
 	server := grpc.NewServer()
-	AuthGRPC.Register(server)
+	AuthGRPC.Register(server, authService)
 	return &App{
 		Grpc:   server,
 		Logger: logger,

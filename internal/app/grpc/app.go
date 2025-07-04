@@ -12,7 +12,6 @@ type App struct {
 	Grpc   *grpc.Server
 	Logger *zap.Logger
 	Port   int
-	AuthGRPC.Auth
 }
 
 func NewApp(port int, logger *zap.Logger, authService AuthGRPC.Auth) *App {

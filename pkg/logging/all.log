@@ -34,3 +34,35 @@
 {"level":"info","time":"2025-07-02T20:41:24.257+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
 {"level":"info","time":"2025-07-02T20:41:24.314+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
 {"level":"info","time":"2025-07-02T20:41:24.314+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-04T11:08:44.462+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:26","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T11:11:57.444+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T11:11:57.447+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:12:50.269+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-04T11:12:50.272+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"}
+{"level":"info","time":"2025-07-04T11:24:16.501+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:24:16.539+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-04T11:24:16.539+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-04T11:26:08.323+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T11:26:08.324+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:26:13.675+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-04T11:26:13.679+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"table users has no column named password"}
+{"level":"info","time":"2025-07-04T11:27:23.986+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:27:23.989+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-04T11:27:23.989+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-04T11:27:33.307+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T11:27:33.309+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:27:37.247+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-04T11:28:28.830+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:69","msg":"cannot get app","error":"no such column: app_id"}
+{"level":"info","time":"2025-07-04T11:29:02.929+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:29:02.931+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-04T11:29:02.931+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-04T11:29:09.635+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T11:29:09.636+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"warn","time":"2025-07-04T11:29:15.897+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:69","msg":"cannot get app","error":"app not found"}
+{"level":"info","time":"2025-07-04T11:32:38.077+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:104","msg":"Checking admin user","UserID":80612446}
+{"level":"warn","time":"2025-07-04T11:32:38.079+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:113","msg":"cannot check admin user","error":"user not found"}
+{"level":"info","time":"2025-07-04T11:32:49.720+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:104","msg":"Checking admin user","UserID":1}
+{"level":"info","time":"2025-07-04T11:32:49.722+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:116","msg":"Result of checking","IsAdmin":false}
+{"level":"info","time":"2025-07-04T11:46:28.878+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T11:46:28.913+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-04T11:46:28.913+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}

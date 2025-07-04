@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	_ "github.com/mattn/go-sqlite3"
 	"go.uber.org/zap"
 	"log/slog"
 	"os"
@@ -25,8 +26,7 @@ func main() {
 	log := logging.GetLogger()
 	log.Info("Старт", zap.Any("env", cfg.Env))
 	application := app.New(log, cfg.GRPC.Port, cfg.StoragePath, cfg.TokenTTL)
-	go application.GrpcApp.MustRun()
-
+	go application.GrpcServer.MustRun()
 	//GS
 
 	stop := make(chan os.Signal, 1)
@@ -34,7 +34,7 @@ func main() {
 
 	<-stop
 
-	application.GrpcApp.Stop()
+	application.GrpcServer.Stop()
 
 	log.Info("application stopped")
 	time.Sleep(500 * time.Millisecond)

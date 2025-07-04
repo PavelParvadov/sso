@@ -30,7 +30,7 @@ type UserSaver interface {
 
 type UserProvider interface {
 	User(ctx context.Context, email string) (models.User, error)
-	IsAdmin(ctx context.Context, UserID string) (bool, error)
+	IsAdmin(ctx context.Context, UserID int64) (bool, error)
 }
 
 type AppProvider interface {
@@ -48,7 +48,7 @@ func NewAuthService(log *zap.Logger, saver UserSaver, provider UserProvider, app
 	}
 }
 
-func (a *Auth) Login(ctx context.Context, email, password string, appID int) (string, error) {
+func (a *Auth) Login(ctx context.Context, email, password string, appID int32) (string, error) {
 	user, err := a.UserProvider.User(ctx, email)
 	if err != nil {
 		if errors.Is(repository.ErrUserNotFound, err) {
@@ -64,7 +64,7 @@ func (a *Auth) Login(ctx context.Context, email, password string, appID int) (st
 		return "", ErrWrongCredentials
 	}
 
-	app, err := a.AppProvider.App(ctx, appID)
+	app, err := a.AppProvider.App(ctx, int(appID))
 	if err != nil {
 		a.log.Warn("cannot get app", zap.Error(err))
 		return "", err
@@ -100,8 +100,8 @@ func (a *Auth) RegisterNewUser(ctx context.Context, email, password string) (int
 
 }
 
-func (a *Auth) IsAdmin(ctx context.Context, UserID string) (bool, error) {
-	a.log.Info("Checking admin user", zap.String("UserID", UserID))
+func (a *Auth) IsAdmin(ctx context.Context, UserID int64) (bool, error) {
+	a.log.Info("Checking admin user", zap.Int64("UserID", UserID))
 
 	IsAdmin, err := a.UserProvider.IsAdmin(ctx, UserID)
 	if err != nil {

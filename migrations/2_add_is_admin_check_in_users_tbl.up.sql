@@ -1,2 +1,2 @@
-alter table users
-add column is_admin boolean not null default false;
+ALTER TABLE users
+    ADD COLUMN is_admin BOOLEAN NOT NULL DEFAULT FALSE;

@@ -66,3 +66,64 @@
 {"level":"info","time":"2025-07-04T11:46:28.878+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
 {"level":"info","time":"2025-07-04T11:46:28.913+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
 {"level":"info","time":"2025-07-04T11:46:28.913+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-04T14:51:57.117+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T14:51:57.119+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T14:51:59.348+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T14:51:59.348+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-04T14:51:59.348+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-04T15:43:28.486+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-04T15:43:28.489+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T15:43:37.772+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-04T15:43:37.791+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:73","msg":"User Logged successfully"}
+{"level":"info","time":"2025-07-04T15:46:50.597+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-04T15:46:50.599+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-04T15:46:50.599+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}
+{"level":"info","time":"2025-07-05T09:52:14.835+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:27","msg":"Старт","env":"local"}
+{"level":"info","time":"2025-07-05T09:52:14.835+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:38","msg":"Starting gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-05T09:52:28.236+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T09:52:28.254+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T09:52:28.255+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"info","time":"2025-07-05T09:52:52.490+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T09:52:52.495+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T09:52:52.496+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"info","time":"2025-07-05T09:54:11.267+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T09:54:11.272+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T09:54:11.274+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"info","time":"2025-07-05T09:54:31.919+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T09:54:31.924+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T09:54:31.926+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"info","time":"2025-07-05T09:55:20.734+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T09:55:20.739+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T09:55:20.740+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"info","time":"2025-07-05T10:04:05.673+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T10:04:05.684+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T10:04:05.686+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"info","time":"2025-07-05T10:36:20.859+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T10:40:09.648+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T10:42:06.817+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T10:45:54.832+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T10:45:54.850+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T10:48:04.117+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T10:48:04.129+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T10:50:52.397+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T10:50:52.406+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T10:52:09.597+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T10:52:09.604+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T10:59:23.944+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T10:59:23.975+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T11:05:02.674+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T11:05:02.691+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T11:11:16.804+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T11:11:16.830+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T11:11:40.617+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"warn","time":"2025-07-05T11:11:40.625+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T11:12:46.322+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T11:12:46.322+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T11:12:46.322+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"info","time":"2025-07-05T11:12:46.332+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:73","msg":"User Logged successfully"}
+{"level":"info","time":"2025-07-05T11:12:46.336+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:86","msg":"Registering new user"}
+{"level":"error","time":"2025-07-05T11:12:46.337+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:96","msg":"Failed to save new user","error":"UNIQUE constraint failed: users.email"}
+{"level":"warn","time":"2025-07-05T11:12:46.356+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/services/auth/auth.go:63","msg":"wrong password","error":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","time":"2025-07-05T11:15:45.065+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:46","msg":"Stopping gRPC server: ","port":44044}
+{"level":"info","time":"2025-07-05T11:15:45.080+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/internal/app/grpc/app.go:48","msg":"gRPC server stopped gracefully"}
+{"level":"info","time":"2025-07-05T11:15:45.082+0300","caller":"C:/Users/Pavel/Desktop/GOEDUCATE/sso/cmd/sso/main.go:39","msg":"application stopped"}

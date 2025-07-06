@@ -3,11 +3,13 @@ package auth
 import (
 	"context"
 	"errors"
+	"sso/internal/repository"
+	authService "sso/internal/services/auth"
+
 	ssov1 "github.com/PavelParvadov/protos/gen/go/sso"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"sso/internal/repository"
 )
 
 type Auth interface {
@@ -26,10 +28,13 @@ func Register(gRPC *grpc.Server, auth Auth) {
 
 func (s *ServerAPI) Login(ctx context.Context, req *ssov1.LoginRequest) (*ssov1.LoginResponse, error) {
 	if err := validateLogin(req); err != nil {
-		return nil, status.Error(codes.InvalidArgument, "invalid arg")
+		return nil, err
 	}
 	token, err := s.Auth.Login(ctx, req.GetEmail(), req.GetPassword(), req.GetAppId())
 	if err != nil {
+		if errors.Is(err, authService.ErrWrongCredentials) {
+			return nil, status.Error(codes.InvalidArgument, "wrong credentials")
+		}
 		return nil, status.Error(codes.Internal, "Internal Error")
 	}
 	return &ssov1.LoginResponse{
